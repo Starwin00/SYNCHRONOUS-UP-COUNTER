@@ -1,4 +1,6 @@
-### SYNCHRONOUS-UP-COUNTER
+## Name: Ragavan E
+## Reg no: 212223040160
+### EXP NO :5 SYNCHRONOUS UP COUNTER
 
 **AIM:**
 
@@ -8,7 +10,7 @@ To implement 4 bit synchronous up counter and validate functionality.
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
 **4 bit synchronous UP Counter**
 
@@ -28,19 +30,50 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Open Quartus II and start the New Project Wizard.
+
+2.Create a project and select your target FPGA device.
+
+3.Create a Verilog HDL file and write the counter design.
+
+4.Save the file and add it to the project.
+
+5.Set it as the top-level entity.
+
+6.lick Processing > Start Compilation to compile and check for errors.
+
+7.Go to Tools > Netlist Viewers > RTL Viewer to view and save the RTL schematic.
+
+8.Create a Vector Waveform File (.vwf): File > New > University Program VWF.
+
+9.Use Node Finder to add clk, clr, en, and q[3..0] signals.
+
+10.Apply input waveforms (clock, clear, enable) in the VWF editor.
+
+11.Run simulation: Processing > Start Simulation.
+
+12.View and save the timing diagram to verify counter functionality.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+![image](https://github.com/user-attachments/assets/77dd8e58-0c79-49f1-be3f-1b14152ea05d)
 
-Developed by: RegisterNumber:
-*/
 
 **RTL LOGIC UP COUNTER**
 
+![image](https://github.com/user-attachments/assets/0430624b-6270-40bd-94f1-db1edd6bd2cc)
+
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+![image](https://github.com/user-attachments/assets/8225a8ff-4716-40cc-85ac-f166ad2a4459)
+
 
 **TRUTH TABLE**
 
+![image](https://github.com/user-attachments/assets/385bfe41-a7a7-4b49-95d3-e17237cc6b2e)
+
+
 **RESULTS**
+
+Thus, the 4-bit synchronous up counter is implemented successfully.
