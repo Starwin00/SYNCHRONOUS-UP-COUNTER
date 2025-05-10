@@ -1,5 +1,5 @@
-## Name: Ragavan E
-## Reg no: 212223040160
+## Name: Starwin rex
+## Reg no: 212224050048
 ### EXP NO :5 SYNCHRONOUS UP COUNTER
 
 **AIM:**
